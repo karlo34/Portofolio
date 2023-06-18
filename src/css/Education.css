@@ -1,0 +1,53 @@
+.Education {
+    padding-bottom: 40px;
+}
+
+#naslov-education {
+    text-align: center;
+}
+
+#my-education {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#education-slike div{
+    display: flex;
+}
+#skola{
+    border-radius: 20px;
+    height: 290px;
+    width: 420px;
+}
+#list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 13px;
+    list-style-type: none;
+}
+ul li img{
+    height: 40px;
+    width: 40px;
+    padding: 10px 0;
+}
+#my-education p{
+    padding-left: 80px;
+    max-width: 500px;
+}
+
+#my-education p span{
+    color: red;
+}
+
+@media  (max-width: 1024px) {
+    #my-education p{
+        padding: 0;
+        margin: 0;
+        padding-top: 30px;
+    }
+}

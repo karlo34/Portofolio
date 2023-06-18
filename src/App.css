@@ -1,0 +1,15 @@
+
+.App{
+  background-color: rgb(31, 31, 31);
+  font-family: 'Courier New', Courier, monospace;
+}
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
+
+button:hover{
+  cursor: pointer;
+}
